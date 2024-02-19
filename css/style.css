@@ -1,0 +1,619 @@
+/*Скидання стилів*/
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+:focus, :active {
+    outline: none;
+}
+
+a:focus, a:active {
+    outline: none;
+}
+
+nav, footer, header, aside {
+    display: block;
+}
+
+html, body {
+    height: 1024px;
+    width: 100%;
+    /*overflow: hidden;*/
+    background-color: #19191B;
+    line-height: 1;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a, a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+/*--------------------*/
+
+.wrapper {
+    height: 100vh;
+    /*width: 83vw;*/
+    padding-left: 8.33vw;
+    padding-right: 3.68vw;
+    margin: 0 auto;
+    background:radial-gradient(50% 50% at 50% 50%, #353550 0%, rgba(25, 25, 27, 0.00) 100%);
+}
+
+.main-page__top {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 4.7vh;
+    margin: 0 auto;
+}
+
+.main-page__logo {
+    display: flex;
+    align-items: center;
+}
+
+.main-page__logo-text {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 140%; /* 39.2px */
+    padding-left: 0.5vw;
+}
+
+.main-page__menu-link,
+.main-page__contact-us {
+    color: white;
+    font-family: "Lato", sans-serif;
+    text-decoration: none;
+}
+
+.main-page__menu-list {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.main-page__menu-link {
+    padding-left: 3vw;
+    font-size: 16px;
+}
+
+.main-page__contact-us {
+    background-color: #19191B;
+    border: 1px white solid;
+    border-radius: 5px;
+    padding: 0.4vh 3.1vw;
+    backdrop-filter: blur(1px);
+}
+
+
+/*  */
+.main-page-content {
+    display: flex;
+    justify-content: space-between;
+    width: 88vw;
+}
+
+.main-page-content__body {
+    margin-top: 7.6vw;
+    width: 40vw;
+}
+
+.main-page-content__title,
+.main-page-content__text,
+.main-page-content__button {
+    color: white;
+}
+
+.main-page-content__title {
+    font-family: Lato sans-serif;
+    font-size: 80px;
+    font-style: normal;
+    line-height: 84px; /* 105% */
+}
+
+.main-page-content__text {
+    width: 34vw;
+    margin-top: 2vh;
+    color: rgba(255, 255, 255, 0.70);
+    font-family: Lato sans-serif;
+    font-size: 21px;
+    line-height: 39px;
+    letter-spacing: -0.657px;
+}
+
+.main-page-content__button {
+    background-color: #5454D4;
+    border-radius: 4px;
+    padding: 1.4vh 3.4vw;
+    font-family: Lato sans-serif;
+    font-size: 20px;
+    margin-top: 4.8vh;
+}
+
+.main-page-content__image img {
+    max-width: 100%;
+    /*height: 69.62vh;*/
+}
+
+
+/* Second Page*/
+.second-page {
+    height: 100vh;
+}
+
+.second-page__top {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+
+.second-page__top-title {
+    width: 39vw;
+    color: #FFF;
+    font-family: Lato sans-serif;
+    font-size: 4.2vw;
+    line-height: 70px;
+}
+
+.second-page__top-text {
+    padding-left: 24px;
+    width: 39vw;
+    color: rgba(255, 255, 255, 0.70);
+    font-family: Lato sans-serif;
+    font-size: 21px;
+    line-height: 39px;
+    letter-spacing: -0.657px;
+}
+
+
+.second-page__image img {
+    width: 100%;
+    height: 65.4vh;
+    margin-top: 50px;
+}
+
+
+/*Third Page*/
+
+.third-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.third-page-blocks {
+    margin-top: 116px;
+}
+
+.third-page-blocks__first,
+.third-page-blocks__second {
+    /*width: 85vw;*/
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.third-page-blocks__second {
+    margin-top: 139px;
+}
+
+
+.third-page-blocks__block {
+    width: 275px;
+    margin: 0 29px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.third-page__title {
+    color: #FFF;
+    font-family: Lato sans-serif;
+    font-size: 60px;
+    line-height: 70px;
+    width: 47vw;
+    text-align: center;
+}
+
+.block-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.block-icon img {
+    background-color: #2e1d1e;
+    padding: 17px;
+    border-radius: 50%;
+}
+
+
+.block-title {
+    text-align: center;
+    margin-top: 39px;
+    color: #FFF;
+    font-family: Lato sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: -0.75px;
+}
+
+.block-text {
+    text-align: center;
+    margin-top: 24px;
+    color: rgba(255, 255, 255, 0.70);
+    font-family: Lato sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.5px;
+}
+
+/*Our Portfolio*/
+.third-page-portfolio {
+    margin-top: 199px;
+}
+
+.third-page-portfolio__title {
+    color: #FFF;
+    font-family: Lato sans-serif;
+    font-size: 58px;
+    font-weight: 800;
+}
+
+.third-page-portfolio__body {
+    margin-top: 185px;
+}
+
+.third-page-portfolio img {
+    width: 23.33vw;
+    margin: 0 20px;
+    background-color: #1E1E20;
+    padding: 15px;
+    border-radius: 14px;
+}
+
+
+/*Footer*/
+.footer {
+    background-color: rgba(30, 30, 32, 0.50);
+    display: flex;
+    height: 506px;
+}
+.footer__title {
+    width: 70vw;
+    color: #FFF;
+    font-family: Lato sans-serif;
+    font-size: 60px;
+}
+
+.footer__copyright {
+    color: rgba(255, 255, 255, 0.70);
+    font-family: Lato sans-serif;
+    font-size: 16px;
+    line-height: 38px; /* 237.5% */
+    letter-spacing: -0.5px;
+}
+
+.footer__contacts-button {
+    color: white;
+    background-color: #5454D4;
+    border-radius: 4px;
+    padding: 1.4vh 3.4vw;
+    font-family: Lato sans-serif;
+    font-size: 20px;
+    margin-top: 4.8vh;
+}
+
+
+/*!* Media *!*/
+/*!* Великі девайси (великі десктопи, < 1200px) *!*/
+@media screen and (max-width: 1200px) {
+    .wrapper {
+        width: 83vw;
+    }
+
+    .main-page-content__title {
+        font-size: 60px;
+        line-height: 70px;
+    }
+
+    .main-page-content__text {
+        font-size: 18px;
+        line-height: 34px;
+    }
+
+    .main-page-content__button {
+        font-size: 18px;
+        padding: 11px 28px;
+        margin-top: 3vh;
+    }
+
+    /*Second page*/
+    .second-page__image img {
+        height: 53vh;
+    }
+
+    /*.second-page__top-title {*/
+    /*    font-size: 50px;*/
+    /*}*/
+    /*Third Page*/
+    .third-page-blocks__first,
+    .third-page-blocks__second {
+        gap: 24px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .third-page-blocks__block {
+        height: 30vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .third-page__title {
+        line-height: 50px;
+        font-size: 48px;
+    }
+.third-page-portfolio__body {
+    margin-top: 70px;
+}
+    .third-page-portfolio__title {
+        font-size: 58px;
+    }
+    .third-page-portfolio img {
+        display: flex;
+        width: 80vw;
+        margin-top: 50px;
+    }
+    .third-page-portfolio img:nth-child(2),
+    .third-page-portfolio img:nth-child(3){
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 992px) {
+    .wrapper {
+        width: 83vw;
+    }
+
+    .main-page-content__button {
+        font-size: 16px;
+        padding: 11px 28px;
+        margin-top: 3vh;
+    }
+
+
+    .main-page__menu-link {
+        font-size: 12px;
+    }
+
+    .main-page__contact-us {
+        font-size: 12px;
+        padding: 3px 25px;
+    }
+
+    .main-page-content__body {
+        width: 30vw;
+    }
+
+    .main-page-content__title {
+        font-size: 40px;
+        line-height: 55px;
+    }
+
+    .main-page-content__text {
+        width: 100%;
+        font-size: 15px;
+        line-height: 30px;
+    }
+
+    .main-page-content__button {
+        font-size: 16px;
+    }
+
+    .second-page__top-title {
+        /*font-size: 40px;*/
+        line-height: 50px;
+    }
+
+    .second-page__top-text {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+
+    /*Second page*/
+    .second-page__image img {
+        height: 43vh;
+    }
+
+    /* Third Page*/
+    .third-page__title {
+        line-height: 45px;
+        font-size: 36px;
+    }
+    .third-page-portfolio__title {
+        font-size: 40px;
+    }
+}
+
+
+
+/* Малі девайси (горизонтальні телефони, < 768px) */
+@media screen and (max-width: 768px) {
+    .main-page__menu,
+    .main-page__contact-us {
+        display: none;
+    }
+
+    .main-page-content__title {
+        font-size: 35px;
+        line-height: 50px;
+    }
+
+    .main-page-content__text {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    .main-page-content__button {
+        font-size: 12px;
+        padding: 8px 22px;
+        margin-top: 20px;
+    }
+
+
+    /*Second page*/
+    .second-page__image img {
+        height: 35vh;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .main-page-content__body {
+        margin-top: 50px;
+    }
+
+    .main-page-content {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .main-page-content__body {
+        width: 100%;
+    }
+
+    .main-page-content__title {
+        width: 60%;
+    }
+
+    .main-page-content__text {
+        width: 90%;
+    }
+
+    .main-page-content__image img {
+        width: 374px;
+        height: 406px;
+    }
+
+    .main-page-content__text {
+        width: 70%;
+    }
+
+    .main-page__logo img {
+        width: 27px;
+        height: 27px;
+    }
+
+    .main-page__logo-text {
+        font-size: 23px;
+    }
+
+    /*Second page*/
+    .second-page__top {
+        flex-direction: column;
+    }
+
+    .second-page__top-title {
+        width: 80%;
+        font-size: 34px;
+        line-height: 150%;
+    }
+
+    .second-page__top-text {
+        width: 80%;
+        font-size: 16px;
+        line-height: 150%;
+        padding: 0;
+        margin-top: 30px;
+    }
+
+    .second-page__image img {
+        margin-top: 50px;
+        width: 100%;
+        height: 25vh;
+    }
+
+    /* Third Page*/
+    .third-page__title {
+        line-height: 35px;
+        width: 100%;
+    }
+    .third-page-portfolio__title {
+        line-height: 150%;
+        margin-left: 20px;
+        font-size: 36px;
+    }
+}
+
+
+@media screen and (max-width: 425px) {
+    .second-page__top-title {
+        width: 100%;
+    }
+
+    .second-page__top-text {
+        width: 85%;
+    }
+
+    .second-page__image img {
+        height: 20vh;
+    }
+
+    /* Third Page*/
+    .third-page__title {
+        line-height: 50px;
+        font-size: 36px;
+    }
+}
