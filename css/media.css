@@ -1,0 +1,227 @@
+/* Великі девайси (великі десктопи, < 1200px) */
+@media screen and (max-width: 1200px) {
+    .main-page-content__text {
+        font-size: 1.6vw;
+    }
+
+    .second-page__top-text {
+        font-size: 1.6vw;
+    }
+}
+
+
+/* Малі девайси (горизонтальні телефони, < 768px) */
+@media screen and (max-width: 768px) {
+    .main-page__contact-us {
+        padding: 1.3vw 3.1vw;
+    }
+
+    .third-page {
+        align-items: start;
+    }
+
+    .third-page__title {
+        font-size: 6vw;
+        line-height: 150%;
+    }
+
+    .third-page-blocks__first,
+    .third-page-blocks__second {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .third-page-blocks__block {
+        width: 70vw;
+        height: 30vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .third-page-blocks__block-title {
+        font-size: 3.1vw;
+    }
+
+    .third-page-blocks__block-text {
+        font-size: 2vw;
+    }
+
+    .third-page-blocks__block-dev {
+        margin-top: 105px;
+    }
+
+    .third-page-blocks__block:nth-child(2) {
+        margin-top: 125px;
+    }
+
+    .third-page-blocks__block:nth-child(3) {
+        margin-top: 125px;
+    }
+}
+
+
+@media screen and (max-width: 425px) {
+    .wrapper {
+        padding: 0 10.5vw 0 5.8vw;
+    }
+
+    .logo img {
+        width: 27px;
+        height: 27px;
+    }
+
+    .logo-text {
+        font-size: 28px;
+    }
+
+    .main-page__menu,
+    .main-page__contact-us {
+        display: none;
+    }
+
+    .main-page-content {
+        flex-direction: column;
+        margin-top: 18.8vw;
+    }
+
+    .main-page-content__body {
+        width: 100%;
+    }
+
+    .main-page-content__title {
+        font-size: 9.8vw;
+        line-height: 150%;
+        width: 43.5vw;
+    }
+
+    .main-page-content__text {
+        font-size: 3.7vw;
+        line-height: 150%;
+        width: 85vw;
+    }
+
+    .main-page-content__button {
+        font-size: 3.7vw;
+    }
+
+    .second-page__top {
+        flex-direction: column;
+        margin-top: 35.2vw;
+    }
+
+    .second-page__top-title {
+        font-size: 8.4vw;
+        line-height: 150%;
+        width: 65.8vw;
+    }
+
+    .second-page__top-text {
+        margin-top: 10.5vw;
+        font-size: 3.7vw;
+        line-height: 150%;
+        width: 80%;
+    }
+
+    .second-page__image {
+        margin-top: 10.5vw;
+    }
+
+    .third-page__title {
+        font-size: 8.4vw;
+        line-height: 150%;
+        width: 58.8vw;
+    }
+
+    .third-page__title {
+        font-size: 8.4vw;
+    }
+
+    .third-page {
+        margin-top: 34.1vw;
+    }
+
+    .third-page-blocks__first {
+        margin-top: 25.8vw;
+    }
+
+    .third-page-blocks__first:first-child {
+        margin: 0;
+    }
+    .third-page-blocks__second {
+        margin-top: 29.4vw;
+    }
+
+    .third-page-blocks__block-title {
+        font-size: 24px;
+        font-weight: 500;
+    }
+
+    .third-page-blocks__block-text {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .third-page-portfolio {
+        margin-top: 48.2vw;
+    }
+    .third-page-portfolio__title {
+        font-size: 36px;
+        line-height: 150%;
+    }
+
+    .third-page-portfolio__title h2 {
+        font-weight: 500;
+    }
+
+    .third-page-portfolio__body img:first-child {
+        width: 100%;
+        padding: 25px;
+    }
+
+    .third-page-portfolio__body img:nth-child(2),
+    .third-page-portfolio__body img:nth-child(3) {
+        display: none;
+    }
+
+    .footer {
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: start;
+        height: 64vh;
+        margin-top: 59.4vw;
+    }
+
+    .footer__title {
+        font-size: 8.4vw;
+    }
+
+    .footer__contacts-button {
+        font-size: 3.7vw;
+        padding: 10px 30px;
+    }
+
+    .footer-logo-content {
+        margin-top: 32.9vw;
+        flex-direction: column;
+    }
+
+    .footer__copyright {
+
+        margin-top: 50px;
+        font-size: 4.2vw;
+    }
+
+    .footer-menu {
+        display: block;
+    }
+
+    .footer-menu__link {
+        margin-top: 50px;
+    }
+
+    .footer-menu__link a {
+        color: #FFFFFF;
+        font-size: 18px;
+        opacity: 0.8;
+    }
+}

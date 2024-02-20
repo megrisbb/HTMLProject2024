@@ -5,7 +5,9 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/null.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
@@ -20,13 +22,13 @@
 <div class="wrapper">
     <main class="main-page">
         <div class="main-page__top">
-            <div class="main-page__logo">
+            <div class="main-page__logo logo">
                 <img src="img/logo/logo.png" alt="Logo">
-                <p class="main-page__logo-text">Enver</p>
+                <p class="main-page__logo-text logo-text">Enver</p>
             </div>
             <nav class="main-page__menu">
                 <ul class="main-page__menu-list">
-                    <li><a class="main-page__menu-link " href="#">Home</a></li>
+                    <li><a class="main-page__menu-link home-link" href="#">Home</a></li>
                     <li><a class="main-page__menu-link " href="#">Services</a></li>
                     <li><a class="main-page__menu-link " href="#">Our project</a></li>
                     <li><a class="main-page__menu-link " href="#">About Us</a></li>
@@ -69,7 +71,7 @@
         </section>
         <section class="third-page-blocks">
             <div class="third-page-blocks__first">
-                <div class="third-page-blocks__block">
+                <div class="third-page-blocks__block third-page-blocks__block-dev">
                     <div class="third-page-blocks__block-icon block-icon">
                         <img src="img/icons/code.png" alt="Code icon">
                     </div>
@@ -149,18 +151,29 @@
                 </div>
             </section>
         </section>
-        <div class="footer">
-            <section class="footer__title">
-                <h2>Contact us for the service you want to use</h2>
-            </section>
-            <section class="footer__contacts">
-                <button class="footer__contacts-button">Contact us</button>
-                <p class="footer__copyright">© 2024 Enver, All Rights Reserved</p>
-            </section>
-        </div>
     </div>
-
 </div>
-
+<div class="footer">
+    <section class="footer__title">
+        <h2>Contact us for the service you want to use</h2>
+    </section>
+    <section class="footer__contacts">
+        <button class="footer__contacts-button">Contact us</button>
+    </section>
+</div>
+<section class="footer-logo-content">
+    <div class="footer__logo logo">
+        <img src="img/logo/logo.png" alt="Logo">
+        <p class="footer__logo-text logo-text">Enver</p>
+    </div>
+    <nav class="footer-menu">
+        <ul class="footer-menu__list">
+            <li class="footer-menu__link"><a href="">Support</a></li>
+            <li class="footer-menu__link"><a href="">Privacy Policy</a></li>
+            <li class="footer-menu__link"><a href="">Terms and Conditions</a></li>
+        </ul>
+    </nav>
+    <p class="footer__copyright">© 2024 Enver, All Rights Reserved</p>
+</section>
 </body>
 </html>
